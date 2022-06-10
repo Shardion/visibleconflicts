@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "visibleconflicts",
+  "version": "1.0.0",
+
+  "name": "Visible Conflicts",
+  "description": "Displays a warning screen before the title screen if there are mods installed that conflict with eachother",
+  "authors": [
+    "shardion"
+  ],
+
+  "license": "CC0-1.0",
+  "icon": "assets/visibleconflicts/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "shardion.visibleconflicts.VisibleConflicts"
+    ],
+    "client": [
+      "shardion.visibleconflicts.client.VisibleConflictsClient"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "conflicts": {
+    "visibleconflicts": "1.0.0",
+    "lol": "*"
+  }
+}
