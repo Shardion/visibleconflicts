@@ -1,2 +1,4 @@
 {
+  "title.visibleconflicts.gui.conflicting_mods_header": "There are mods installed that conflict!",
+  "title.visibleconflicts.gui.conflicting_mods_message": "There are mods installed that conflict with eachother. This can range from minor issues to major incompatibilities. See the list below for details."
 }
