@@ -1,4 +1,7 @@
 {
   "title.visibleconflicts.gui.conflicting_mods_header": "There are mods installed that conflict!",
-  "title.visibleconflicts.gui.conflicting_mods_message": "There are mods installed that conflict with eachother. This can range from minor issues to major incompatibilities. See the list below for details."
+  "title.visibleconflicts.gui.conflicting_mods_warning": "There are mods installed that conflict with eachother. This can range from minor issues to major incompatibilities. See the list below for details.",
+  "title.visibleconflicts.gui.conflicting_mods_checkbox": "Don't show this warning again",
+  "title.visibleconflicts.gui.conflicting_mods_ok_button": "Okay",
+  "title.visibleconflicts.gui.conflicting_mods_open_mods_folder_button": "Open mods folder"
 }

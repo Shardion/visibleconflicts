@@ -13,7 +13,7 @@ import java.util.Optional;
 
 public class VisibleConflicts implements ModInitializer {
     public static final Logger LOGGER = LoggerFactory.getLogger("visibleconflicts");
-    public HashMap<String, ArrayList<String>> badMods;
+    public static HashMap<String, ArrayList<String>> badMods;
 
     // "i should not be allowed to touch an iterator for the next ten thousand years" - shardion
     @Override

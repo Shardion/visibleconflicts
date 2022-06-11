@@ -33,6 +33,6 @@
   },
   "conflicts": {
     "visibleconflicts": "1.0.0",
-    "lol": "*"
+    "fabric": "*"
   }
 }
